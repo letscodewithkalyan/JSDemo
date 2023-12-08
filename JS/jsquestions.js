@@ -25,3 +25,15 @@ function findFactorial(num){
    }
    return num * findFactorial(num-1);
 }
+
+//deepClone
+function deepClone(obj){
+    return JSON.parse(JSON.stringify(obj));
+}
+
+const numberArr = [10,3,14, 11, 5]
+console.log("Maximum number " + findMax(numberArr));
+console.log("EvenNumbers " + evenNumbers(numberArr));
+console.log("Reverse String " + reverseString("Kalyan"));
+console.log("Is Palindrome " + isPalindrome("Kalyan"));
+console.log("Factorial "+ findFactorial(5));
