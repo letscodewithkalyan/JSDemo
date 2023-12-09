@@ -11,8 +11,11 @@ function logBelow(){
 }
 logBelow();
 
+//Eventloop, Callback queue and MicroTaskqueuue
+
 //Implicit and explicit binding
 //Need understand the this and arrow
+//Arrow function this refers to global window
 var obj = {
     name: "Kalyan",
     display: function(){
