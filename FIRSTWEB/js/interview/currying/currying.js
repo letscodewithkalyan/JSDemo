@@ -46,4 +46,6 @@ function add(num1){
     }
 }
 
+const addsum = a => b => b ? add(a+b) : a ;
 console.log(add(4)(5)(6)())
+console.log(addsum(4)(5)(6)())
