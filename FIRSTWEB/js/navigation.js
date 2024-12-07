@@ -1,5 +1,5 @@
 function navigateToDeBouncing() {
-    window.location.href = 'js/interview/debouncing/debounce.html';
+    window.location.href = 'js/interview/debouncing_throttling/debounce.html';
 }
 
 function navigateToCurrying() {
@@ -8,4 +8,8 @@ function navigateToCurrying() {
 
 function navigateToEvent(){
     window.location.href = "js/interview/event_bubbling/event.html"
+}
+
+function navigateToPractice(){
+    window.location.href = "js/practice/practice.html"
 }

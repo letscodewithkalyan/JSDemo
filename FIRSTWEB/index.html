@@ -15,6 +15,13 @@
         font-size: 10;
         color: blue;
       }
+      .column {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 50%;
+        margin: 10px;
+      }
     </style>
   </header>
   <body>
@@ -29,10 +36,14 @@
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_pw1BpBfuZAevTRIg7RFQD1NZzdrEy016w&usqp=CAU"
     />
-    <p class="username">OM SAI RAM</p>
-    <p class="username">This is first web</p>
-    <button onclick="navigateToDeBouncing()">Debounce</button>
-    <button onclick="navigateToCurrying()">Currying</button>
-    <button onclick="navigateToEvent()">Event Capturing and Bubbling</button>
+
+    <div class="column">
+      <p class="username">OM SAI RAM</p>
+      <p class="username">This is first web</p>
+      <button onclick="navigateToDeBouncing()">Debounce and Throttling</button>
+      <button onclick="navigateToCurrying()">Currying</button>
+      <button onclick="navigateToEvent()">Event Capturing and Bubbling</button>
+      <button onclick="navigateToPractice()">Practice</button>
+    </div>
   </body>
 </html>
